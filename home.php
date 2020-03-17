@@ -8,7 +8,7 @@ $load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
         <link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
     <body>
-	    <p> Logged in as <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?> </p>
+	    <p style="color: white;"> Logged in as <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?> </p>
         <div id="navigation_body">                                   <!--NAVIGATION BAR-->
             <div class="navbar">
                 <ul>
