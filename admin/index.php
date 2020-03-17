@@ -5,6 +5,8 @@ include 'class.admin.php';
 $admin = new Admin();
 $message = null;
 
+// NOTE TO Sir Rhix: User: admin , Pass: 12345
+
 if($admin->get_session()){
     header("location: home.php");
 }
