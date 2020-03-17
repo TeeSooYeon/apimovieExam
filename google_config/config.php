@@ -15,7 +15,7 @@ $google_client->setClientId('345807680937-5ac3lbkn30nom6qn95pa6ib8t6v7n7jv.apps.
 $google_client->setClientSecret('08eTbAAUQxcS5q7ezljMYnE2');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://apiexamsnh.herokuapp.com/index.php');
+$google_client->setRedirectUri('https://movieapiexam.herokuapp.com/home.php');
 
 //
 $google_client->addScope('email');
