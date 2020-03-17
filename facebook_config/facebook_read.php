@@ -40,7 +40,7 @@ if(isset($_GET['code'])){
 }else{
  // Get login url
     $facebook_permissions = ['email']; // Optional permissions
-    $facebook_login_url = $facebook_helper->getLoginUrl('https://apiexamsnh.herokuapp.com/', $facebook_permissions);  
+    $facebook_login_url = $facebook_helper->getLoginUrl('https://movieapiexam.herokuapp.com/', $facebook_permissions);  
 // Render Facebook login button
     $facebook_login_url = '<a href="'.$facebook_login_url.'" class="btn-face m-b-20"><i class="fa fa-facebook-official"></i>Facebook</a>';
 }
