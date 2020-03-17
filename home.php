@@ -1,5 +1,10 @@
 <?php
 $load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
+
+include('google_config/google_read.php');
+if($login_button == true){
+    include('facebook_config/facebook_read.php');
+}
 ?>
 <!DOCTYPE html>
 <html>
