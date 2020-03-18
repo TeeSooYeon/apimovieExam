@@ -13,7 +13,7 @@ if($login_button == true){
 		<link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body style="display: inline-block;">
-	  	<div style="text-align: center;">
+	  	<div style="margin: 0 auto;">
 				<?php
 						if($login_button == '')
 						{
