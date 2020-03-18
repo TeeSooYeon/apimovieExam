@@ -43,18 +43,15 @@ if($login_button == true){
 							 echo $facebook_login_url;
 				}else{
 					switch($page){
-								case 'main':
-										require_once('index.php');
-								break;
 								case 'home':
-										require_once('home.php');
-								break;
+									require_once('home.php');
+									break;
 								case 'login':
-										require_once('login.php');
+									require_once('login.php');
 								break;
 								default:
-										require_once('home.php');
-								break;
+									require_once('home.php');
+									break;
 							}
 					}
 				?>
