@@ -30,9 +30,9 @@ if($login_button == true){
 							}
 						}else{
           if(isset($facebook_login_url)){
-		// Do nothing	  
-	  }else{
 		echo $login_button;	  
+	  }else{
+		// Do nothing 
 	  }
         }
 				?>
