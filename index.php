@@ -16,6 +16,7 @@ if($login_button == true){
     <body style="text-align: center;"> 
 <div class="limiter">
 	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+		Sign Up
 		<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 	  	<div style="margin: 0 auto;">
 				<?php
@@ -40,7 +41,7 @@ if($login_button == true){
 	  					}
         		}
 				?>
-				<br/>
+
 				<?php
 				if(isset($facebook_login_url)){
 							 echo $facebook_login_url;
