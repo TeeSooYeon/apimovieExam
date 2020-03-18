@@ -12,8 +12,8 @@ if($login_button == true){
 	  	<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
-    <body>
-	  	<div>
+    <body style="display: inline-block;">
+	  	<div style="text-align: center;">
 				<?php
 						if($login_button == '')
 						{
@@ -29,35 +29,34 @@ if($login_button == true){
 									break;
 							}
 						}else{
-          if(isset($facebook_login_url)){
-		echo $login_button;	  
-	  }else{
-		// Do nothing 
-	  }
-        }
+          		if(isset($facebook_login_url)){
+								echo $login_button;	  
+	  					}else{
+								// Do nothing 
+	  					}
+        		}
 				?>
 				<br/>
 				<?php
 				if(isset($facebook_login_url)){
 							 echo $facebook_login_url;
-						 }
-				else{
+				}else{
 					switch($page){
 								case 'main':
-									require_once('index.php');
-									break;
-					case 'home':
-						require_once('home.php');
-									break;
-				case 'login':
-						require_once('login.php');
-						break;
+										require_once('index.php');
+								break;
+								case 'home':
+										require_once('home.php');
+								break;
+								case 'login':
+										require_once('login.php');
+								break;
 								default:
-									require_once('home.php');
-									break;
+										require_once('home.php');
+								break;
 							}
 					}
-						?>
+				?>
 			</div>
     </body>
 	<div id="dropDownSelect1"></div>
