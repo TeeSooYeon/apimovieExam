@@ -14,11 +14,6 @@ if($login_button == true){
 	    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body style="text-align: center;"> 
-<div class="limiter">
-	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-		<h1 style="{text-align:center}">Sign Up<h2>
-			<br/><br/>
-		<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 	  	<div style="margin: 0 auto;">
 				<?php
 						if($login_button == '')
@@ -64,9 +59,6 @@ if($login_button == true){
 					}
 				?>
 			</div>
-		</div>
-	</div>
-</div>
     </body>
 	<div id="dropDownSelect1"></div>
 	<script src="js/main.js"></script>
