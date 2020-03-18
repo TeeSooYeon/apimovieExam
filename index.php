@@ -16,7 +16,7 @@ if($login_button == true){
     <body style="text-align: center;"> 
 <div class="limiter">
 	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-		Sign Up
+		<h1 style="{text-align:center}">Sign Up<h2>
 		<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 	  	<div style="margin: 0 auto;">
 				<?php
