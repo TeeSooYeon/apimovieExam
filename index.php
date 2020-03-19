@@ -33,7 +33,7 @@ if($login_button == true){
           		if(isset($facebook_login_url)){
 								echo '<div class="container-login100" style="background-color: #e66b4c;">';
 								echo '<span class="login100-form-title m-t-200 p-b-53">Enjoy Your Favorite Movie</span>';
-								echo '<div class="m-l-300">'.$login_button.'</div>';	  
+								echo '<div class="m-l-10">'.$login_button.'</div>';	  
 	  					}else{
 								// Do nothing 
 	  					}
@@ -42,7 +42,7 @@ if($login_button == true){
 
 				<?php
 				if(isset($facebook_login_url)){
-							 echo '<div class="m-l-300">'.$facebook_login_url.'</div>';
+							 echo '<div class="m-l-10">'.$facebook_login_url.'</div>';
 							echo '</div>';
 				}else{
 					switch($page){
