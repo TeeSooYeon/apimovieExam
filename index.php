@@ -31,8 +31,8 @@ if($login_button == true){
 							}
 						}else{
           		if(isset($facebook_login_url)){
-								echo '<span class="login100-form-title p-b-53">Admin Log-In</span>';
-								echo '<div class="m-t-200 m-l-300">'.$login_button.'</div>';	  
+								echo '<span class="login100-form-title m-t-200 p-b-53">Enjoy Your Favorite Movie</span>';
+								echo '<div class="m-l-300">'.$login_button.'</div>';	  
 	  					}else{
 								// Do nothing 
 	  					}
