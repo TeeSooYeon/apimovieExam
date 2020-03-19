@@ -30,7 +30,7 @@ if(isset($_REQUEST['submit'])){
 	</head>
 	<body>
 		<div class="limiter">
-		<div class="container-login100" style="background-image: url("../images/bg-01.jpg");">
+		<div class="container-login100" style="background-image: url("./images/bg-01.jpg");">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 			<form class="login100-form validate-form flex-sb flex-w" method="POST" action="" name="login">
 				<span class="login100-form-title p-b-53">
@@ -38,6 +38,7 @@ if(isset($_REQUEST['submit'])){
 				</span>
 				<br><br>
 				<?php if($message == null){}else{echo "<center>".$message."</center>";} ?>
+				<br/>
 				<div class="p-t-31 p-b-9">
 						<span class="txt1">
 							Username
@@ -57,7 +58,9 @@ if(isset($_REQUEST['submit'])){
 					<span class="focus-input100"></span>
 				</div>
 				<div class="container-login100-form-btn m-t-17">
-					<input class="login100-form-btn" type="submit" name="submit" value="Login"/>
+					<button class="login100-form-btn" type="submit" name="submit">
+							Log In
+						</button>
 				</div>
 			</form>
 			</div>
