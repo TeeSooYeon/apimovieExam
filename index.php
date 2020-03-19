@@ -34,6 +34,11 @@ if($login_button == true){
 								echo '<div class="container-login100" style="background-color: #e66b4c;">';
 								echo '<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">';
 								echo '<span class="login100-form-title p-b-53">Enjoy Your Favorite Movie</span>';
+								echo '<div class="p-t-31 p-b-9">
+										<span class="txt1">
+										Sign up using the following:
+										</span>
+									</div>';
 								echo $login_button;	  
 	  					}else{
 								// Do nothing 
