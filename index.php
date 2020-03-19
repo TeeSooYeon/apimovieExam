@@ -7,7 +7,7 @@ if($login_button == true){
 ?>
 <html> 
     <head>
-      <title>Movies API</title>
+      <title>MooQ - Your Movie Getaway</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	  	<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -33,7 +33,7 @@ if($login_button == true){
           		if(isset($facebook_login_url)){
 								echo '<div class="container-login100" style="background-color: #e66b4c;">';
 								echo '<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">';
-								echo '<span class="login100-form-title p-b-53">Enjoy Your Favorite Movie</span>';
+								echo '<span class="login100-form-title p-b-53">Welcome to MooQ</span>';
 								echo '<div class="p-t-31 p-b-9">
 										<span class="txt1">
 										Sign up using the following:
