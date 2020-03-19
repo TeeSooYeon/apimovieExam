@@ -31,7 +31,7 @@ if($login_button == true){
 							}
 						}else{
           		if(isset($facebook_login_url)){
-								echo '<div class="container-login100" style="background-color: #e66b4c;">';
+								echo '<div class="container-login100" style="background-image: linear-gradient(#e66b4c,grey);">';
 								echo '<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">';
 								echo '<span class="login100-form-title p-b-53">Welcome to MooQ</span>';
 								echo '<div class="p-t-31 p-b-9">
