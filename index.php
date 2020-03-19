@@ -31,7 +31,7 @@ if($login_button == true){
 							}
 						}else{
           		if(isset($facebook_login_url)){
-								echo $login_button;	  
+								echo '<div class="m-t-250 m-l-250">'.$login_button.'</div>';	  
 	  					}else{
 								// Do nothing 
 	  					}
@@ -40,7 +40,7 @@ if($login_button == true){
 
 				<?php
 				if(isset($facebook_login_url)){
-							 echo $facebook_login_url;
+							 echo '<div class="m-l-250">'.$facebook_login_url.'</div>';
 				}else{
 					switch($page){
 								case 'home':
