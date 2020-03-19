@@ -28,9 +28,8 @@ if(isset($_REQUEST['submit'])){
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<title> Movie - Admin Login </title>
 	</head>
-	<body>
 		<div class="limiter">
-		<div class="container-login100" style="background-image: url("./images/bg-01.jpg");">
+		<div class="container-login100" style="background-image: url("../images/bg-01.jpg");">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 			<form class="login100-form validate-form flex-sb flex-w" method="POST" action="" name="login">
 				<span class="login100-form-title p-b-53">
@@ -66,5 +65,4 @@ if(isset($_REQUEST['submit'])){
 			</div>
 		</div>
 		</div>
-	</body>
 </html>
