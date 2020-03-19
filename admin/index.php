@@ -23,22 +23,25 @@ if(isset($_REQUEST['submit'])){
 <!DOCTYPE html>
 <html>
 <head>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  	<link rel="stylesheet" type="text/css" href="../css/util.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<title> Movie - Admin Login </title>
 	</head>
 	<body>
-		<div> <!-- BACKGROUND -->
-		<div>
-			<form method="POST" action="" name="login">
+		<div class="container-login100" style="background-image: url("images/bg-01.jpg");">
+			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+			<form class="login100-form validate-form flex-sb flex-w" method="POST" action="" name="login">
 				<br><br>
 				<?php if($message == null){}else{echo "<center>".$message."</center>";} ?>
 				<div>
-					<input type="text" required name="adminid" placeholder="Username" autocomplete="off"/>
+					<input class="wrap-input100 validate-input" type="text" required name="adminid" placeholder="Username" autocomplete="off"/>
 				</div>
 				<div>
-					<input type="password" required name="password" placeholder="Password"/>
+					<input class="wrap-input100 validate-input" type="password" required name="password" placeholder="Password"/>
 				</div>
 				<div>
-					<input type="submit" name="submit" value="Login"/>
+					<input class="login100-form-btn" type="submit" name="submit" value="Login"/>
 				</div>
 			</form>
 			</div>
